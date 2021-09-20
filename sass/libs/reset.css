@@ -18,11 +18,13 @@ button, input, select {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 img, video {
@@ -42,24 +44,4 @@ table {
 td, th {
   padding: 0;
 }
-
-body {
-  background-color: #d7ded8;
-}
-
-.logo-home {
-  max-width: 100px;
-}
-
-.header div, .header img {
-  display: inline-block;
-}
-.header div:first-child {
-  height: 200px;
-  width: 10%;
-  border-bottom: 2px solid black;
-  position: relative;
-  float: left;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=reset.css.map */
